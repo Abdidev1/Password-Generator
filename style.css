@@ -23,3 +23,46 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+
+.decor {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.dot-grid-left {
+    top: 25%;
+    left: 32%;
+    width: 60px;
+    height: 140px;
+    background-image: radial-gradient(#000 25%, transparent 26%);
+    background-size: 15px 15px;
+}
+
+.dot-grid-right {
+    top: 30%;
+    right: 32%;
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(#000 25%, transparent 26%);
+    background-size: 15px 15px;
+}
+
+.plus-sign {
+    top: 15%;
+    right: 34%;
+    font-size: 5rem;
+}
+
+.zigzag {
+    top: 40%;
+    right: 33%;
+}
+
+.hashtag {
+    bottom: 20%;
+    left: 32%;
+    font-size: 5rem;
+}
